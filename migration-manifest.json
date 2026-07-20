@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "files": 453,
+    "routeShells": 57,
+    "tables": 0,
+    "indexes": 0,
+    "inserts": 0,
+    "users": 0,
+    "routesGenerated": 10
+  },
+  "envKeys": [],
+  "redactedSecretKeys": [],
+  "assetMigration": {
+    "oldBase": "https://unknown.mochausercontent.com/",
+    "newBase": "https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/4d4fa98d-a6d9-41d7-9015-4402a1bc93c5/",
+    "assetCount": 358
+  },
+  "notes": [
+    "tailwind.config: Unknown theme namespace \"container\" — skipped. v4 may not support it as a @theme key.",
+    "rewrite-routes: emitted 57 app/ route shells.",
+    "strip-mocha-build: merged 9 runtime dep(s) from user package.json; pinned 1 dep(s); normalized 0 dep range(s); sanitized 0 malformed dep descriptor(s); dropped 0 unparseable dep descriptor(s).",
+    "rewrite-imports: rewrote 87 file(s).",
+    "sqlite-to-pg: 0 tables, 0 indexes, 0 inserts; skipped 1 _mocha_migrations rows.",
+    "asset-rewrite: 62 file(s) updated; 699 per-url + 0 base-host substitution(s); old=https://unknown.mochausercontent.com/ new=https://dtvoeevhaseb5.cloudfront.net/uploads/mocha-import/4d4fa98d-a6d9-41d7-9015-4402a1bc93c5/",
+    "seed-users: 0 users in export.",
+    "behavior-contracts: 4/4 Hono route contract(s) passed."
+  ],
+  "manualSteps": [],
+  "builderHandoffContext": [
+    "Mocha behavior contracts: 4/4 Hono route contract(s) passed."
+  ],
+  "behaviorValidation": {
+    "total": 4,
+    "passed": 4,
+    "failures": [],
+    "builderHandoff": [
+      "Mocha behavior contracts: 4/4 Hono route contract(s) passed."
+    ]
+  }
+}
